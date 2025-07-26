@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedic Vision - Ancient Ayurvedic Wisdom</title>
+    <meta name="description" content="Discover the healing power of Ayurvedic plants">
+    
+   
+    <link rel="shortcut icon" href="static/icons/favicon.ico" type="image/x-icon">
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">Vedic<span>Vision</span></span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+                    <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+                    <li><a href="#plants" class="navbar-link" data-nav-link>Plants</a></li>
+                    <li><a href="#remedies" class="navbar-link" data-nav-link>Remedies</a></li>
+                    <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+                    <ion-icon name="close-outline" class="close-icon"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </header>
+
+<!--hero-->
+    
+    <section class="hero" id="home" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../static/images/image2.png')">
+        <div class="container">
+            <div class="hero-flex-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Discover the <span>Healing Power</span> of Ayurvedic Plants</h1>
+                    <p class="hero-text">Ancient wisdom meets modern wellness through nature's pharmacy</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">1800+</span>
+                            <span class="stat-label">Medicinal Plants</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">8,000+</span>
+                            <span class="stat-label">Traditional Remedies</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">520+</span>
+                            <span class="stat-label">Ayurvedic Formulas</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">User Rating</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-btns">
+                        <a href="#plants" class="btn btn-primary">Explore Plants</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="hero-upload-section">
+                    <div class="image-upload-card">
+                        <div class="image-preview" id="imagePreview">
+                            <img src="" alt="Preview" class="preview-image" id="previewImage">
+                            <span class="default-text" id="defaultText">Image Preview</span>
+                        </div>
+                        <div class="upload-options">
+                            <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                            <button class="btn btn-upload" id="uploadTriggerBtn">
+                                <ion-icon name="cloud-upload-outline"></ion-icon> Upload Image
+                            </button>
+                            <p class="upload-note">Supported formats: JPG, PNG, GIF</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Plants Section-->
+    <section class="section plants" id="plants">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Ayurvedic Treasures</p>
+                <h2 class="section-title">Our <span>Featured Plants</span></h2>
+            </div>
+
+            <div class="plants-grid">
+                <!-- plants cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <p class="section-subtitle">Ancient Wisdom</p>
+                <h2 class="section-title">About <span>Vedic Vision</span></h2>
+                <p class="about-text">We bridge the gap between ancient Ayurvedic knowledge and modern wellness practices, bringing you authentic information about medicinal plants.</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <ion-icon name="checkmark-circle" class="feature-icon"></ion-icon>
+                        <span>Authentic Ayurvedic Knowledge</span>
+                    </div>
+                    <div class="feature">
+                        <ion-icon name="checkmark-circle" class="feature-icon"></ion-icon>
+                        <span>Scientifically Verified Information</span>
+                    </div>
+                    <div class="feature">
+                        <ion-icon name="checkmark-circle" class="feature-icon"></ion-icon>
+                        <span>Practical Usage Guidelines</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            
+            <div class="about-image">
+                <img src="../static/images/about-banner.jpg" alt="Ayurvedic herbs" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Remedies Section -->
+    <section class="section remedies" id="remedies">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Traditional Healing</p>
+                <h2 class="section-title">Ayurvedic <span>Remedies</span></h2>
+            </div>
+            
+            <div class="remedies-grid">
+                <!-- Remedy cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-title">Connect With Our <span>Ayurvedic Experts</span></h2>
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" class="input-field">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email Address" class="input-field">
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="Your Message" class="input-field textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">
+                        <span class="logo-text">Vedic<span>Vision</span></span>
+                    </a>
+                    <p class="footer-text">Preserving and sharing the ancient wisdom of Ayurvedic healing through medicinal plants.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#plants">Plants</a></li>
+                        <li><a href="#remedies">Remedies</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li><ion-icon name="mail-outline"></ion-icon> info@vedicvision.com</li>
+                        <li><ion-icon name="call-outline"></ion-icon> +91 9876543210</li>
+                        <li><ion-icon name="location-outline"></ion-icon> Kolkata, India</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 Vedic Vision. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Popup -->
+    <div class="login-popup" id="loginPopup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3>Login Required</h3>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn btn-login">Login</button>
+                <p class="register-text">Don't have an account? <a href="#" id="showRegister">Register</a></p>
+            </form>
+        
+            <form id="registerForm" style="display:none;">
+                <div class="form-group">
+                    <label for="registerName">Name</label>
+                    <input type="text" id="registerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" required>
+                </div>
+                <button type="submit" class="btn btn-register">Register</button>
+                <p class="login-text">Already have an account? <a href="#" id="showLogin">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-top-btn" aria-label="Back to top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+
+    
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
