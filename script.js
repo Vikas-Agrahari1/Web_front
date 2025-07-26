@@ -10,12 +10,12 @@ const defaultText = document.getElementById('defaultText');
 
 // Data
 const plants = [
-  { name: "Holy Basil (Tulsi)", image: "/images/tulsi.jpeg", description: "The 'Queen of Herbs' known for its adaptogenic properties and stress relief.", properties: ["Adaptogen", "Immunity", "Stress Relief"] },
-  { name: "Ashwagandha", image: "/images/ashwagandha.jpeg", description: "Ancient rejuvenating herb that helps combat stress and boost energy.", properties: ["Adaptogen", "Energy", "Anti-stress"] },
-  { name: "Turmeric (Haldi)", image: "/images/turmeric.jpeg", description: "Powerful anti-inflammatory with numerous health benefits.", properties: ["Anti-inflammatory", "Antioxidant", "Digestive"] },
-  { name: "Neem", image: "/images/neem.jpeg", description: "Purifying herb with antibacterial and blood-purifying properties.", properties: ["Antibacterial", "Skin Health", "Detox"] },
-  { name: "Brahmi", image: "/images/brahmi.jpeg", description: "Cognitive enhancer that improves memory and brain function.", properties: ["Brain Health", "Memory", "Nervous System"] },
-  { name: "Amla", image: "/images/amla.jpeg", description: "Rich in Vitamin C and powerful antioxidant properties.", properties: ["Immunity", "Anti-aging", "Digestive"] }
+  { name: "Holy Basil (Tulsi)", image: "images/tulsi.jpeg", description: "The 'Queen of Herbs' known for its adaptogenic properties and stress relief.", properties: ["Adaptogen", "Immunity", "Stress Relief"] },
+  { name: "Ashwagandha", image: "images/ashwagandha.jpeg", description: "Ancient rejuvenating herb that helps combat stress and boost energy.", properties: ["Adaptogen", "Energy", "Anti-stress"] },
+  { name: "Turmeric (Haldi)", image: "images/turmeric.jpeg", description: "Powerful anti-inflammatory with numerous health benefits.", properties: ["Anti-inflammatory", "Antioxidant", "Digestive"] },
+  { name: "Neem", image: "images/neem.jpeg", description: "Purifying herb with antibacterial and blood-purifying properties.", properties: ["Antibacterial", "Skin Health", "Detox"] },
+  { name: "Brahmi", image: "images/brahmi.jpeg", description: "Cognitive enhancer that improves memory and brain function.", properties: ["Brain Health", "Memory", "Nervous System"] },
+  { name: "Amla", image: "images/amla.jpeg", description: "Rich in Vitamin C and powerful antioxidant properties.", properties: ["Immunity", "Anti-aging", "Digestive"] }
 ];
 
 const remedies = [
